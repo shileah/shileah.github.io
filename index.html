@@ -2,18 +2,27 @@
 <html>
 <head>
 <style>
+.container { 
+  height: 150px;
+  position: relative;
+}
 .center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100px;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 </style>
 <meta charset="utf-8">
 <title>shileah.com</title>
 </head>
-<div class="center">
-  <p>Hello.</p>
-</div>
+<div class="container">
+  <div class="center">
+    <p>Hello.</p>
+  </div>
+</div>  
 </body>
 </html>
+
